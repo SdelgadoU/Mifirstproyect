@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" role="img" aria-labelledby="title desc">
+  <title id="title">Aprendizaje digital</title>
+  <desc id="desc">Una estudiante junto a un computador, libros y símbolos de tecnología.</desc>
+  <rect width="560" height="420" rx="36" fill="#DCEAFF"/>
+  <circle cx="445" cy="82" r="44" fill="#FFD98A"/>
+  <path d="M70 320c55-88 135-119 241-92 66 17 117 51 169 105v48H70z" fill="#BBD3FF"/>
+  <rect x="245" y="105" width="218" height="151" rx="13" fill="#142B4F"/>
+  <rect x="258" y="118" width="192" height="123" rx="7" fill="#FFFFFF"/>
+  <rect x="279" y="141" width="80" height="10" rx="5" fill="#2D67D3"/>
+  <rect x="279" y="164" width="139" height="8" rx="4" fill="#DCEAFF"/>
+  <rect x="279" y="182" width="118" height="8" rx="4" fill="#DCEAFF"/>
+  <rect x="279" y="205" width="54" height="18" rx="9" fill="#2FB497"/>
+  <path d="M326 256h56l10 45h-76z" fill="#142B4F"/>
+  <rect x="298" y="297" width="112" height="13" rx="6.5" fill="#0E203C"/>
+  <circle cx="163" cy="142" r="50" fill="#F1B984"/>
+  <path d="M115 141c-2-45 19-72 52-72 40 0 58 32 49 76-20-9-35-24-43-45-10 28-29 41-58 41z" fill="#23385A"/>
+  <path d="M118 190c35-26 78-23 106 8l35 77-31 15-25-54 4 118H105l7-116-31 69-31-16z" fill="#2D67D3"/>
+  <path d="M130 190c13 22 44 24 58 0l-6-22h-46z" fill="#F1B984"/>
+  <path d="M112 238c28 28 64 40 108 37l8 15c-57 5-101-8-132-38z" fill="#F1B984"/>
+  <rect x="72" y="329" width="170" height="24" rx="8" fill="#FFFFFF"/>
+  <rect x="85" y="306" width="142" height="23" rx="7" fill="#2FB497"/>
+  <rect x="101" y="283" width="125" height="23" rx="7" fill="#FFD98A"/>
+  <g fill="none" stroke="#2D67D3" stroke-width="8" stroke-linecap="round">
+    <path d="M473 190l25-14"/>
+    <path d="M479 218h30"/>
+    <path d="M470 244l24 16"/>
+  </g>
+  <circle cx="80" cy="91" r="13" fill="#2FB497"/>
+  <circle cx="486" cy="322" r="17" fill="#2FB497"/>
+  <path d="M79 112v28M65 126h28" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+</svg>

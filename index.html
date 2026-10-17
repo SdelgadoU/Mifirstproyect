@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página educativa sobre el uso responsable de la tecnología.">
+    <title>Aula Digital | Aprender con tecnología</title>
+    <link rel="icon" href="img/aprendizaje-digital.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="encabezado">
+        <nav class="barra-navegacion" aria-label="Navegación principal">
+            <a class="marca" href="#inicio">Aula Digital</a>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#consejos">Consejos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="portada" id="inicio">
+            <div class="portada-texto">
+                <p class="etiqueta">Educación y tecnología</p>
+                <h1>Aprender también es explorar</h1>
+                <p>
+                    La tecnología puede ayudarnos a estudiar, practicar y compartir ideas.
+                    Lo importante es usarla con propósito y elegir fuentes confiables.
+                </p>
+                <a class="boton" href="#recursos">Ver recursos</a>
+            </div>
+
+            <img
+                src="img/aprendizaje-digital.svg"
+                alt="Estudiante aprendiendo con herramientas digitales"
+                width="560"
+                height="420"
+            >
+        </section>
+
+        <section class="seccion" id="recursos">
+            <div class="titulo-seccion">
+                <p class="etiqueta">Ideas para comenzar</p>
+                <h2>Tres recursos útiles</h2>
+                <p>Estas opciones ayudan a organizar el estudio y a practicar de forma sencilla.</p>
+            </div>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <span aria-hidden="true">01</span>
+                    <h3>Organiza tu tiempo</h3>
+                    <p>Divide cada actividad en tareas pequeñas y define un tiempo para terminarlas.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <span aria-hidden="true">02</span>
+                    <h3>Consulta buenas fuentes</h3>
+                    <p>Compara la información y revisa quién publicó cada contenido antes de usarlo.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <span aria-hidden="true">03</span>
+                    <h3>Practica con proyectos</h3>
+                    <p>Crear una página web permite aprender HTML, CSS y JavaScript paso a paso.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion consejos" id="consejos">
+            <div>
+                <p class="etiqueta">Uso responsable</p>
+                <h2>Un consejo para hoy</h2>
+                <p id="mensaje-consejo" aria-live="polite">
+                    Toma descansos cortos y evita pasar muchas horas seguidas frente a la pantalla.
+                </p>
+                <button class="boton boton-claro" id="cambiar-consejo" type="button">
+                    Mostrar otro consejo
+                </button>
+            </div>
+
+            <aside class="dato">
+                <strong>Dato importante</strong>
+                <p>Aprender un poco cada día suele dar mejores resultados que estudiar todo al final.</p>
+            </aside>
+        </section>
+
+        <section class="seccion enlace-util">
+            <div>
+                <p class="etiqueta">Para seguir aprendiendo</p>
+                <h2>Conoce más sobre desarrollo web</h2>
+            </div>
+            <a href="https://developer.mozilla.org/es/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">
+                Visitar MDN Web Docs
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico - Configuración del entorno de desarrollo web</p>
+        <p id="fecha"></p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
